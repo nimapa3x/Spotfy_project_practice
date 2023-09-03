@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotyfy</title>
-    <link rel="stylesheet" href="../Spotify-Bootstrap-practice/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../Spotify-Bootstrap-practice/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
@@ -16,10 +16,63 @@
 </head>
 
 <body>
-
-    <script src="../Spotify-Bootstrap-practice/assets/js/jquery.slim.min.js"></script>
-    <script src="../Spotify-Bootstrap-practice/assets/js/popper.min.js"></script>
-    <script src="../Spotify-Bootstrap-practice/assets/js/bootstrap.min.js"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-12 sf-gray-primary">
+                <h4 class="my-4 label font-size-20"><span
+                        class="fa fa-file-image-o mr-2 font-size-20"></span>NAME/SLOGAN</h4>
+                <!-----------------------------------------------------menu-------------------------------------------------->
+                <ul class="list-group mt-3 mb-4">
+                    <li class="list-group-item sf-list-group-item active"><span class="fa fa-home mr-2"></span>HOME</li>
+                    <li class="list-group-item sf-list-group-item "><span class="fa fa-search mr-2"></span>SEARCH</li>
+                    <li class="list-group-item sf-list-group-item "><span class="fa fa-folder mr-2"></span>YOUR LIBARARY
+                    </li>
+                </ul>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item  sf-list-group-item"><span class="fa fa-plus mr-2"></span>Create PlayList
+                    </li>
+                    <li class="list-group-item  sf-list-group-item"><span class="fa fa-music mr-2"></span>Recently
+                        Listened
+                    </li>
+                    <li class="list-group-item  sf-list-group-item"><span class="fa fa-heart mr-2"></span>Songs You Like
+                    </li>
+                </ul>
+                <!-- list os songs you like -->
+                <lable class="menu-sublist-song mb-3">List of Song You May Like</lable>
+                <div class="mb-5">
+                    <a href="#"><img src="/assets/images/list02.jpg"
+                            class="img-fluid  mb-2 "></a>
+                    <a href="#"><img src="/assets/images/list04.jpg"
+                            class="img-fluid  mb-2 "></a>
+                    <a href="#"><img src="/assets/images/list05.jpg"
+                            class="img-fluid  mb-2 "></a>
+                    <a href="#"><img src="/assets/images/list06.jpg"
+                            class="img-fluid   "></a>
+                </div>
+                <!-- banner ad -->
+                <a href="#" class="hpd hpd-small partner">
+                    <div class="hpd-body">
+                        <h4 class="hpd-title">High Performance Sites</h4>
+                        <p class="hpd-desc">The Ebook on how to Build and Deploy Fast, Scalable Sites!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magnam neque ipsam reiciendis,
+                        </p>
+                    </div>
+                    <span hret="#" class="hpd-btn">View<span class="hpd-kickstatret">Kickstarter</span></span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 sf-playlist mt-4 mb-0">
+               <div class="row">
+                <div class="col-lg-5 col-md-12 mb-3 ">
+                    <input class="form-control sf-input bg-dark" placeholder="Search Music, Albums, Artists, Movies"/>
+                    <span class="fa fa-search sf-input-search bg-dark"></span>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.slim.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

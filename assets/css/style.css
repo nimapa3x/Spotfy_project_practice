@@ -1,0 +1,106 @@
+body{
+    font-size: 14px;
+    background-color: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label{
+    color:#00c358;
+}
+.sf-gray-primary{
+    background-color: #121212;
+}
+.sf-list-group-item{
+    background-color: #121212;
+    color: #ffffff;
+    border-color: #121212;
+    cursor: pointer;
+}
+.sf-list-group-item:hover, .sf-list-group-item.active{
+    background-color: #272727;
+    color: #ffffff;
+    border-color: #272727;
+}
+.menu-sublist-song{
+    color: #ffffff;
+    border-bottom: 2px #00c358 solid;
+    text-transform: uppercase;
+}
+.hpd .hpd-desc{
+    margin:10px 0;
+    font-size:15px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+.hpd-small{
+    display: block;
+    padding: 14px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #3cadce;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.hpd-small:hover{
+    text-decoration: none;
+}
+.hpd-small .hpd-body{
+    padding: 14px;
+}
+.hpd-small .hpd-title{
+    font-size:20px;
+}
+.hpd .hpd-title{
+    margin: 0;
+    font-size:21px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.hpd-small .hpd-btn{
+    display: block;
+    padding:10px 0;
+    border-radius: 0 0 2px 2px;
+    font-size: 13px;
+}
+.hpd:hover .hpd-btn {
+    background: #171717;
+  }
+  .hpd-btn{
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 2px;
+    background: #255571;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background 0.5s ease; 
+  }
+  .sf-input{
+    border-radius: 3px;
+    border-color: #171717;
+    font-size: 13px;
+    height: 31px;
+    color: #fff;
+  }
+  .sf-input::placeholder{
+    color:#fff;
+  }
+  .sf-input:active, .sf-input:focus{
+    border:1px solid yellowgreen;
+    outline: 0;
+    box-shadow: none;
+  }
+  .sf-input-search{
+    position: absolute;
+    top: 1px;
+    right: 16px;
+    color: #00c358;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    border-left: 1px solid #303030;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
